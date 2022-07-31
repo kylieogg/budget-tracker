@@ -2,9 +2,10 @@
   "name": "budget-tracker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,8 @@
   "homepage": "https://github.com/kylieogg/budget-tracker#readme",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.0",
     "save": "^2.5.0"
   }
 }
