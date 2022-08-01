@@ -17,10 +17,9 @@ request.onsuccess = function(event) {
     db = event.target.result;
 
     // check if app is online, if yes run uploadTransaction() function to send all local db data to api
-    if (navigator.online)
+    if (navigator.onLine)
  {
      //uploadTransaction();
-
  }
 };
 
